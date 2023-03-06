@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[415],{5415:function(e,t,c){c.r(t);c(1174);var a=c(3329);t.default=function(){return(0,a.jsx)("section",{children:(0,a.jsx)("h1",{className:"title",children:"Wellcome to Contacts Secvice"})})}}}]);
+//# sourceMappingURL=415.92509b2a.chunk.js.map
