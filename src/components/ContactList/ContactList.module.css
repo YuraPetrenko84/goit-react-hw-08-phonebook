@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 24px;
+  width: 100%;
+  background: #3b455723;
+  border-radius: 16px;
+}
+
+.title {
+  text-align: center;
+}
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  list-style: none;
+  margin: 0;
+  width: 100%;
+}
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.message {
+  text-align: center;
+  color: grey;
+}

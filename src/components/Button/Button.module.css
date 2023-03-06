@@ -1,0 +1,16 @@
+.submitBtn {
+  height: 40px;
+  width: fit-content;
+  padding: 8px 20px;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: rgba(90, 200, 70, 0.2);
+  border-radius: 8px;
+}
+
+.submitBtn:hover {
+  background-color: rgba(90, 200, 70, 0.8);
+}

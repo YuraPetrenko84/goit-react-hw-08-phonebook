@@ -1,0 +1,58 @@
+.formCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  width: 100%;
+  background: #3b455723;
+  border-radius: 16px;
+}
+@media screen and (min-width: 480px) {
+  .formCard {
+    width: 400px;
+  }
+}
+.form {
+  width: 100%;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.label:focus-within {
+  color: rgb(90, 200, 70);
+}
+.description {
+  font-size: small;
+  color: grey;
+  padding: 0;
+  margin: 0 0 3px 0;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.input:not(:placeholder-shown):required:valid {
+  border-color: green;
+}
+
+.input:not(:placeholder-shown):required:invalid {
+  border-color: red;
+}
+
+.errorMessage {
+  margin: 10px 0;
+  color: red;
+}

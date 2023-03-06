@@ -1,0 +1,40 @@
+.contactCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  padding: 8px;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.contactCard:hover {
+  background-color: rgba(90, 200, 70, 0.2);
+}
+.name {
+  margin: 0;
+}
+
+.deleteBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 0 10px;
+  border: none;
+
+  /* border: 1px solid olivedrab; */
+}
+
+.deleteBtn:hover {
+  color: red;
+}

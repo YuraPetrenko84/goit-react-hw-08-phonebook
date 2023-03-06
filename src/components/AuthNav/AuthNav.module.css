@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.register {
+  color: white;
+  background-color: violet;
+  text-decoration: none;
+  padding: 5px;
+  min-width: 50px;
+  border-radius: 4px;
+}
+.register:hover {
+  scale: 1.1;
+}
+
+.login {
+  text-decoration: none;
+  list-style: none;
+  border-radius: 4px;
+  padding: 5px;
+  min-width: 50px;
+  color: white;
+  background-color: olivedrab;
+}
+.login:hover {
+  scale: 1.1;
+}

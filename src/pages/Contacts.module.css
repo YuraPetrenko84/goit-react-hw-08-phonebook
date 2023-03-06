@@ -1,0 +1,20 @@
+.contacts {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  gap: 10px;
+}
+@media screen and (min-width: 768px) {
+  .contacts {
+    flex-direction: row;
+  }
+}
+/* @media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  } */

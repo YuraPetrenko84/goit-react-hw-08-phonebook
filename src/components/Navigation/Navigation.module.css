@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  justify-content: flex-start;
+  margin-top: 30px;
+  display: flex;
+  flex-grow: 1;
+  gap: 20px;
+  border-bottom: 3px solid rgba(90, 200, 70, 0.8);
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+}

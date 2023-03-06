@@ -1,0 +1,24 @@
+.header {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 3px solid rgba(90, 200, 70, 0.8);
+}
+@media screen and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+/* @media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+} */
